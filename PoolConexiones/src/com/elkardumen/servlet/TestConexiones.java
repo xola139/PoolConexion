@@ -38,6 +38,8 @@ try{
 		Connection conn = ds.getConnection();
 		
 		System.out.println("Oracle>>>"+conn+""+conn.isClosed());
+		System.out.println("Oracle 3>>>"+conn+""+conn.isClosed());
+		System.out.println("Oracle 4>>>"+conn+""+conn.isClosed());
 		
 		
 		Context initContextMySql = new InitialContext();
